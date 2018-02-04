@@ -8,7 +8,7 @@ TICKERS = ['AUDCAD', 'AUDCHF', 'AUDJPY', 'AUDNZD', 'AUDUSD', 'CADCHF', 'CADJPY',
 
 def process_file(processing_folder):
     for d in [_dir for _dir in os.listdir(processing_folder) if os.path.isdir(_dir)]:
-        if str.isnumeric(d):
+        if len(d) >= 8 and str.isnumeric(d[0:8]):
             rename_files(processing_folder, d)
 
 
