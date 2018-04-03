@@ -1,0 +1,6 @@
+name: curr
+dependencies:
+- python=3.6
+- pip=9.0.1
+- selenium=3.9.0
+- click=6.7
