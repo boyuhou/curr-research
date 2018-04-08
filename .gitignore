@@ -101,3 +101,7 @@ ENV/
 .mypy_cache/
 
 .idea/
+
+weekly/
+snap/
+snap_history/
