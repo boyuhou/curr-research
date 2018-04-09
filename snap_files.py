@@ -6,7 +6,7 @@ import shutil
 
 @click.command()
 @click.option('--folder', default='snap', help='Folder with the files')
-@click.option('--archive_folder', default='snap', help='Folder with the files')
+@click.option('--archive_folder', default='snap_history', help='Folder with the files')
 @click.option('--time', default=None, help='particualrt time in yyyymmdd_hhmmss')
 def main(folder, archive_folder, time):
     if time is None:
