@@ -3,3 +3,4 @@ dependencies:
 - python=3.6
 - pip=9.0.1
 - click=6.7
+- pillow=5.1.0
